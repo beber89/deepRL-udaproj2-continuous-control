@@ -24,7 +24,7 @@
 - Clone this repo
 
 ```bash
-git clone https://github.com/beber89/DeepRL-udaproj2-continuous-control
+git clone https://github.com/beber89/deepRL-udaproj2-continuous-control
 ```
 
 - Install python dependencies pytorch, matplotlib & unityagents

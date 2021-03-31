@@ -15,6 +15,13 @@
 
 - It relies on two deep learning networks (actor network and critic network)
 
+- The critic network in this algorithm is like the dqn network but can handle continuous action values as it receives the output of the actor network which represents the chosen action.
+
+- Whereas the actor network is trained to output the best action `μ(s; θ)` for a given state. Unlike typical actor-critic algorithm in which the actor outputs the policy `π(a | s; θ)`, where
+  - `s`: state
+  - `θ`: model parameters
+  - `a`: action
+
 - The Neural Network model is softly updated to a target model in order to keep the learning stable
 
 ## Getting Started
